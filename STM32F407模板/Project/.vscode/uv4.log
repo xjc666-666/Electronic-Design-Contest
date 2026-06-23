@@ -1,0 +1,21 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F407'
+compiling SI5351.c...
+..\Drive\Source\SI5351.c(52): error:  #65: expected a ";"
+          if (frequency <= 8000) rDiv = SI_R_DIV_128;
+..\Drive\Source\SI5351.c(53): error:  #65: expected a ";"
+          else if (frequency <= 16000) rDiv = SI_R_DIV_64;
+..\Drive\Source\SI5351.c(54): error:  #65: expected a ";"
+          else if (frequency <= 32000) rDiv = SI_R_DIV_32;
+..\Drive\Source\SI5351.c(55): error:  #65: expected a ";"
+          else if (frequency <= 64000) rDiv = SI_R_DIV_16;
+..\Drive\Source\SI5351.c(56): error:  #65: expected a ";"
+          else if (frequency <= 128000) rDiv = SI_R_DIV_8;
+..\Drive\Source\SI5351.c(57): error:  #65: expected a ";"
+          else if (frequency <= 256000) rDiv = SI_R_DIV_4;
+..\Drive\Source\SI5351.c(58): error:  #65: expected a ";"
+          else rDiv = SI_R_DIV_2;
+..\Drive\Source\SI5351.c: 0 warnings, 7 errors
+".\Objects\STM32F429.axf" - 7 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
